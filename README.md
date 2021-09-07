@@ -3,6 +3,3 @@
 
 ![Ashampoo_Snap_2018 03 09_10h47m21s_004_ 00_00_00-00_00_30](https://user-images.githubusercontent.com/43638406/132310539-15f6c4c2-7e43-4116-892d-fbcd76cda976.gif)
 ![IMG_20180411_122723_HHT](https://user-images.githubusercontent.com/43638406/132309943-f669e21e-bcdb-452a-ad99-7a397c54836c.jpg)
-
-
-
