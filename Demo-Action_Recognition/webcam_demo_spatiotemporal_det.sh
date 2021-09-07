@@ -1,0 +1,13 @@
+python webcam_demo_spatiotemporal_det.py \
+    --config configs/detection/ava/slowonly_omnisource_pretrained_r101_8x8x1_20e_ava_rgb.py \
+    --checkpoint checkpoints/slowonly_omnisource_pretrained_r101_8x8x1_20e_ava_rgb_20201217-16378594.pth \
+    --det-config demo/faster_rcnn_r50_fpn_2x_coco.py \
+    --det-checkpoint checkpoints/faster_rcnn_r50_fpn_2x_coco_bbox_mAP-0.384_20200504_210434-a5d8aa15.pth \
+    --det-score-thr 0.9 \
+    --action-score-thr 0.5 \
+    --label-map demo/label_map_ava.txt \
+    --predict-stepsize 8 \
+    --output-fps 20 \
+    --clip-vis-length 8 \
+    --input-video "test.mp4" \
+    --show
