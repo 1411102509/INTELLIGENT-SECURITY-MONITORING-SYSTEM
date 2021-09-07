@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1393</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QMainWindow#QWidget{background-image: url(:/picture/1.png)
+
+}</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>1341</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/picture/监控界面_00.png);</string>
+    </property>
+    <widget class="QOpenGLWidget" name="openGLWidget">
+     <property name="geometry">
+      <rect>
+       <x>469</x>
+       <y>169</y>
+       <width>261</width>
+       <height>191</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>170</y>
+       <width>251</width>
+       <height>191</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>170</y>
+       <width>251</width>
+       <height>191</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>380</y>
+       <width>261</width>
+       <height>201</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>380</y>
+       <width>251</width>
+       <height>201</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QOpenGLWidget" name="openGLWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>1000</x>
+       <y>380</y>
+       <width>251</width>
+       <height>201</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1393</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>
