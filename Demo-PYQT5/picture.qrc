@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="picture">
+    <file>1.png</file>
+    <file>监控界面_00.png</file>
+  </qresource>
+</RCC>
